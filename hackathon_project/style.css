@@ -1,0 +1,248 @@
+/* Universal styles  */
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    /* padding: 0; */
+    list-style-type: none;
+}
+
+/* logo */
+
+.logo {
+    float: left;
+    width: 40%;
+    padding-left: 0rem;
+    padding-top: 1.5rem;
+    /* padding: 10px; */
+}
+
+.logo img {
+    width: 27rem;
+    height: auto;
+    transition: all 1s ease;
+}
+
+.logo img:hover {
+    width: 30rem;
+    transition: all 1s ease;
+    height: auto;
+}
+
+/* heading  */
+
+.nav {
+    background-image: linear-gradient(white, rgb(212, 249, 249));
+    z-index: 9;
+    height: 7rem;
+    display: inline;
+    box-shadow: 2px 2px 30px rgb(179, 175, 175);
+}
+
+.nav_top {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.nav_side {
+    float: right;
+    width: 57%;
+    margin-top: 2.2rem;
+}
+
+.nav_side a {
+    text-align: right;
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+    font-family: 'Changa', sans-serif;
+    font-size: 2.0rem;
+    padding: 1.5rem;
+    justify-content: initial;
+    transition: 1s ease;
+}
+
+.nav_side a:hover {
+    color: #1ba1d2;
+    /* font-weight: bolder; */
+    font-size: 2.2rem;
+    transition: 1s ease;
+
+}
+
+.main {
+    margin-top: 1.0rem;
+    background-image: url(hero_image.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.main .main_content {
+    padding-top: 12.5rem;
+    margin-right: 10%;
+    margin-left: 2%;
+    font-size: 2.2rem;
+    color: white;
+
+}
+
+.main .main_content h1 {
+    text-shadow: 0px 3px 7px rgb(41, 40, 40);
+    padding-top: 16rem;
+}
+
+.main .main_content p {
+    padding-top: 1rem;
+}
+
+.text {
+    padding-left: 5rem;
+    margin-top: 10rem;
+    font-size: 3rem;
+    text-decoration: underline;
+    color: rgb(27, 161, 210);
+    ;
+}
+
+.textbtn {
+    padding-top: 2rem;
+    padding-left: 7rem;
+
+}
+
+.join {
+    background-color: #1ba1d2;
+    font-size: 1.5rem;
+    transition: all 1s ease;
+}
+
+.join:hover {
+    font-size: 1.7rem;
+    transition: all 1s ease;
+}
+
+.key_highlights {
+    padding: 2.0rem;
+    background-color: (124, 207, 235);
+}
+
+.key_highlights h2 {
+
+    text-decoration: underline;
+    margin-top: 20.0rem;
+    font-family: 'Changa', sans-serif;
+    padding-left: 4rem;
+    font-size: 3.2rem;
+    margin-bottom: 0.2rem;
+    text-shadow: 2px 2px 7px rgb(211, 207, 207);
+}
+
+.key_highlights .border_key {
+    border-bottom: 2px solid grey;
+    padding-top: 0rem;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.key_highlights .key_container {
+    display: flex;
+    margin-top: 4.0rem;
+}
+
+.key_highlights .key_container .key_content {
+    padding: 2.0rem;
+    float: left;
+    width: 50%;
+}
+
+.key_highlights .key_container .key_content li {
+    list-style: none;
+    padding: 1.0rem;
+    margin: 1.0rem;
+    border-left: 2px solid #1ba1d2;
+    font-weight: bold;
+    font-family: 'Changa', sans-serif;
+    font-size: 2.0rem;
+    box-shadow: 2px 2px 8px rgb(189, 185, 185);
+    background-color: #1ba1d2;
+}
+
+.our_work {
+    padding: 5.0rem;
+}
+
+.our_work h2 {
+    margin-top: 1.5rem;
+    font-family: 'Changa', sans-serif;
+    text-align: center;
+    font-size: 3.2rem;
+    margin-bottom: 0.2rem;
+    text-shadow: 2px 2px 7px rgb(211, 207, 207);
+}
+
+.our_work .border_work {
+    border-bottom: 2px solid grey;
+    padding-top: 0rem;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.our_work .work_container {
+    display: flex;
+    margin-top: 3.0rem;
+}
+
+.our_work .work_container .work_content {
+    width: 40%;
+    padding: 2.0rem;
+    margin-left: 7%;
+}
+
+.our_work .work_container .work_content p {
+    color: rgb(14, 13, 13);
+    font-size: 1.9rem;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.sevices {
+    padding-bottom: 2.0rem;
+    display: block;
+}
+
+.sevices h2 {
+    font-family: 'Changa', sans-serif;
+    text-align: center;
+    font-size: 3.2rem;
+    margin-bottom: 0.2rem;
+    text-shadow: 2px 2px 5px rgb(211, 207, 207);
+    /* text-decoration: underline; */
+}
+
+.sevices .border {
+    border-bottom: 2px solid grey;
+    padding-top: 0px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.sevices .product_container {
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5.0rem;
+
+}
+
+.item_img {
+    width: 5rem;
+    height: auto;
+
+}

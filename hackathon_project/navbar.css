@@ -1,0 +1,56 @@
+.logo{
+    float: left;
+    width: 37%;
+    padding-left: -1rem;
+    padding-top: 1rem;
+    /* padding: 10px; */
+}
+.logo img{
+    width: 14rem;
+    height: auto;
+    transition: all 1s ease;
+}
+.logo img:hover{
+    width: 18rem;
+    transition: all 1s e;
+    height: auto;
+}
+/* heading  */
+.nav{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(white, rgb(212, 249, 249));
+    z-index: 9;
+    height: 4rem;
+    display:  inline;
+    box-shadow: 2px 2px 30px rgb(179, 175, 175);
+}
+.nav_top{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.nav_side{
+    float: right;
+    width: 47%;
+    margin-top: 1.3rem;
+}
+.nav_side a{
+    text-align: right;
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+    font-family: 'Changa', sans-serif;
+    font-size: 1.0rem;
+    padding: 1.0rem;
+    justify-content: initial;
+    transition: 1s ease;
+}
+.nav_side a:hover{
+    color: #1ba1d2;
+    /* font-weight: bolder; */
+    font-size: 1.2rem;
+    transition:  1s ease;
+    
+}

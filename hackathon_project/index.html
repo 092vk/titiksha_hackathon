@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellness In Hands</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css"
+        integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+
+<body>
+    <nav class="nav nav_top">
+        <div class="logo">
+            <a href="index.html"><img src="images\logonew2.png" width="150"></a>
+        </div>
+        <div class="nav_side">
+            <a href="info.html">Track My Health</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="blog.html">Blogs</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login/Register</a>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="main_content">
+            <h1>CONSUMING MEDICINE IS NOT ENOUGH</h1>
+            <p>TAKE CHARGE OF YOUR HEALTH IN YOUR HANDS</p>
+        </div>
+    </div>
+
+    <div class="inputbox">
+        <div class="text">
+            <h2>Empower Your Health, Start Your Journey today</h2>
+        </div>
+        <div class="textbtn">
+
+                <a  href="info.html"><button class="join">Join Now</button></a>
+        </div>
+    </div>
+
+    <div class="key_highlights">
+        <h2>Our Goal</h2>
+        <div class="key_container">
+            <div class="key_content">
+                <li>Health and Wealth is our priority.</li>
+                <li>We know that medicines alone can't cure diseases.</li>
+                <li>We want to provide at home services .</li>
+                <li>Our Services include - support groups ,at home medical devices ,at home and online therapy .</li>
+                <li>Medical Tours.</li>
+                <li>Psychological Help.</li>
+            </div>
+        </div>
+
+        <div class="services"> 
+            <h2> Our Services </h2>
+           
+                    <div class="item_img">
+                        <img src="images\Untitled design (8).png" alt="">
+                    </div>
+                    <div class="item_content">
+                        <div class="but" id="b1">
+                            <a href="services.html">Group Therapy</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" onclick="location.href='item_2.html';">
+                    <div class="item_img">
+                        <img src="" alt="Medical Tour">
+                    </div>
+                    <div class="item_content">
+                        <p>Medical Tour</p>
+                        <div class="but" id="b2">
+                            <a href="images\Untitled design (7).png">Join Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" onclick="location.href='item_3.html';">
+                    <div class="item_img">
+                        <img src="ITEMS/Phone_1.png" id="phone_1" alt="online therapy">
+                    </div>
+                    <div class="item_content">
+                        <p>Message Therapy And Chiropractic Services
+                        </p>
+                        <div class="but" id="b3">
+                            <a href="images\Untitled design (9).png">Join Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" onclick="location.href='item_4.html';">
+                    <div class="item_img">
+                        <img src="ITEMS/item_1.png" alt="Group therapy ">
+                    </div>
+                    <div class="item_content">
+                        <p>Group Therapy and Comunity Support</p>
+                        <div class="but" id="b4">
+                            <a href="images\Untitled design (8).png">Join Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="explore_btn">
+            <a href="Services.html">Explore All Services</a>
+        </div>
+    </div>
+
+    <div class="our_work">
+        <h2>Our Work</h2>
+        <div class="border_work"></div>
+        <div class="work_container">
+            <div class="work_video">
+                <video controls autoplay loop muted>
+                    <source src="ITEMS/Promotion.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="work_content">
+                <p>The motivation behind creating a website dedicated to providing medical services stems from the
+                    understanding that medicine alone cannot solely cure diseases. Recognizing the holistic nature of
+                    healthcare, our website aims to address the broader needs of individuals by offering additional
+                    support and services. These may include online support groups, which foster a sense of community and
+                    provide emotional assistance to patients and their families. At-home testing allows for convenient
+                    and timely diagnostic measures, empowering individuals to monitor their health from the comfort of
+                    their homes. Behavior analysis helps in identifying patterns and triggers that contribute to health
+                    issues, allowing for personalized interventions. At-home medical advice offers remote consultations,
+                    enabling individuals to seek professional guidance without the need for in-person visits. Lastly,
+                    the provision of relevant products, such as medical devices or health-related supplies, ensures
+                    convenience and accessibility for users. By combining these elements, the website strives to create
+                    a comprehensive platform that enhances medical care and supports individuals on their journey
+                    towards improved well-being.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="feed">
+        <h2>Write A Review</h2>
+        <div class="border_feed"></div>
+        <div class="feed_form">
+            <form onsubmit="return validation()" name="Feedback-submit" method="post" action="index.html !important">
+                <label>Full Name: </label>
+                <input type="text" id="username" name="Name" placeholder="Enter your Full Name"><br>
+                <span id="errorname" style="color: red;"></span><br>
+
+                <label style="padding : rem">Email<span style="padding: 2.0rem"></span>: </label>
+                <input type="email" id="email" name="Email" placeholder="Enter Email Id"><br>
+                <span id="erroremail" style="color: red;"></span><br>
+
+                <Label>Mobile<span style="padding: 1.5rem"></span>: </Label>
+                <input type="tel" id="Mobile" name="Mobile" placeholder="Enter your phone"><br>
+                <span id="errortel" style="color: red;"></span><br>
+
+                <textarea rows="5" cols="7" name="Review" placeholder="Your review"></textarea>
+                <div class="button">
+                    <a href="index.html">
+                        <button type="submit">Submit</button>
+                    </a>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>
